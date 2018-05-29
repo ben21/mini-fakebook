@@ -4,4 +4,6 @@ class Post < ApplicationRecord
   mount_uploader :attachment, AvatarUploader
 
   acts_as_votable
+
+  acts_as_commentable
 end
